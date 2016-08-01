@@ -1,0 +1,19 @@
+{
+    "name": "cor",
+    "version": "0.1.0",
+    "publisher": "vscode",
+    "engines": { "vscode": "*" },
+    "contributes": {
+        "languages": [{
+            "id": "cor",
+            "extensions": [ ".cor" ],
+            "aliases": [ "Cor", "cor" ],
+            "configuration": "./cor.configuration.json"
+        }],
+        "grammars": [{
+            "language": "cor",
+            "scopeName": "source.cor",
+            "path": "./syntaxes/Cor.plist"
+        }]
+    }
+}
