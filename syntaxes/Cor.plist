@@ -109,7 +109,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?&lt;![^.]\.|:)\b(error|super|regex|chan|timeout)\b(?=\()</string>
+            <string>(?&lt;![^.]\.|:)\b(error|super|regex|chan|timeout|copy)\b(?=\()</string>
             <key>name</key>
             <string>keyword.function.builtin.cor</string>
         </dict>
