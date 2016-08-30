@@ -97,7 +97,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(return|if|else|for|switch|case|default|continue|break)\b</string>
+            <string>\b(return|if|else|for|switch|case|default|continue|break|select)\b</string>
             <key>name</key>
             <string>keyword.control.cor</string>
         </dict>
